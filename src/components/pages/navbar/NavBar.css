@@ -1,0 +1,69 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ContainerNavBar {
+    height: 100px;
+}
+
+.ClassH1 {
+    margin-left: 20px;
+    width: 310px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.ClassH1:hover {
+    color: aqua;
+}
+
+.ClassH1:hover {
+    transition: all 2s ease;
+}
+
+.ClassA{
+    padding-left: 0px;
+    cursor: pointer;
+    margin-top: 28px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.ClassA a {
+    font-size: 25px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.ClassA a:hover {
+    color: aqua;
+    transform: scale(1.2);
+}
+
+.ClassA a:hover {
+    transition: all 2s ease;
+}
+
+/*
+.ClassA a:hover {
+    transform: scale(1.2);
+}
+
+.ClassA a:hover {
+    transition: all .5s ease;
+}
+*/
+/*
+.algo:hover {
+    transform: scale(1.2);
+}
+
+.algo:hover {
+    transition: all .5s ease;
+}
+*/
+.ContainerNavBar {
+    display: flex;
+    justify-content: space-between ;
+}
